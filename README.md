@@ -20,3 +20,8 @@ python main.py
 python main.py
 ```
 do this preferably inside of the folder to leave as a cool animation for your term
+
+## Examople
+
+![castie](https://github.com/user-attachments/assets/7f0a70b4-e5ed-4ce4-bd56-4fb736dc20c8)
+
