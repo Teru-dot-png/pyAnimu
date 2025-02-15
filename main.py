@@ -27,14 +27,20 @@ def get_random_ascii():
 
 
 
-while True:
-    effect = VHSTape(get_random_ascii())
-    with effect.terminal_output() as terminal:
-        for frame in effect:
-            terminal.print(frame)
-    
-    # sleep for 1 second
-    time.sleep(5)
-    
-    #clear the screen
-    os.system('cls' if os.name == 'nt' else 'clear')
+def main():
+    print("Welcome to pyAnimu!")
+    while True:
+        effect = VHSTape(get_random_ascii())
+        with effect.terminal_output() as terminal:
+            for frame in effect:
+                terminal.print(frame)
+        
+        # sleep for 1 second
+        time.sleep(5)
+        
+        #clear the screen
+        os.system('cls' if os.name == 'nt' else 'clear')
+
+
+if __name__ == "__main__":
+    main()
